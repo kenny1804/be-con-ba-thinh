@@ -1,0 +1,183 @@
+/* css/style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Hồng nhạt */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff80ab; /* Hồng đậm */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e91e63; /* Hồng hơi tối */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff8e1; /* Vàng kem nhạt */
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #f06292; /* Hồng */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.story-list h3 {
+    text-align: center;
+    color: #f06292;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.story-card {
+    background-color: #fff;
+    border: 1px solid #ffebee; /* Hồng rất nhạt */
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.story-card img {
+    max-width: 100%;
+    height: 180px; /* Chiều cao cố định cho ảnh */
+    object-fit: cover; /* Đảm bảo ảnh đầy đủ trong khung */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.story-card h4 {
+    color: #e91e63;
+    font-size: 1.3em;
+    margin: 10px 0 5px;
+}
+
+.story-card p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ffcdd2; /* Hồng nhạt */
+    color: #ad1457; /* Hồng đậm */
+    font-size: 0.9em;
+    border-top: 1px solid #f8bbd0;
+}
+
+/* Định dạng cho trang truyện riêng lẻ */
+.story-page {
+    padding: 30px;
+}
+
+.story-page h2 {
+    color: #e91e63;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.story-image-full {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.story-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+    text-align: justify;
+    color: #444;
+}
+
+.story-navigation {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.story-navigation a {
+    display: inline-block;
+    background-color: #ff80ab;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.story-navigation a:hover {
+    background-color: #e91e63;
+}
